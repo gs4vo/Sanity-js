@@ -9,5 +9,13 @@ export const eventType = defineType({
       name: 'name',
       type: 'string',
     }),
+    defineField({
+        name: 'idade',
+        type: 'date',
+      }),
+      defineField({
+        name: 'foto',
+        type: 'image',
+      }),
   ],
 })
