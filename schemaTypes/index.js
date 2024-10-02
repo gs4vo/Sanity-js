@@ -1,3 +1,5 @@
 import {eventType} from "./artistaType"
 
-export const schemaTypes = []
+export const schemaTypes = [
+    eventType,
+]
